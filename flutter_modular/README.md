@@ -538,7 +538,7 @@ class _MyWidgetState extends ModularState<MyWidget, HomeStore> {
       appBar: AppBar(
         title: Text("Modular"),
       ),
-      body: Center(child: Text("${store.counter}"),),
+      body: Center(child: Text("${controller.counter}"),),
     );
   }
 }
